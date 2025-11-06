@@ -1,11 +1,18 @@
 require('dotenv').config();
 const express = require('express');
+const cors = require('cors');
 const mongoose = require('mongoose');
 const authRoutes = require('./routes/authRoutes');
 const taskRoutes = require('./routes/taskRoutes');
 
 const app = express();
 const port = process.env.PORT || 3000;
+
+// Configuration CORS pour permettre les requêtes depuis le frontend
+app.use(cors({
+  origin: 'http://localhost:5173', // URL du frontend Vite
+  credentials: true
+}));
 
 app.use(express.json());
 
