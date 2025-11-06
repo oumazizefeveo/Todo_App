@@ -233,6 +233,8 @@ VITE_API_URL=https://votre-api.onrender.com/api
 
 ✅ Exercice 2.2 - Authentification JWT  
 ✅ Exercice 2.3 - MongoDB  
+✅ Exercice 3.1 - Interface TODO React
+✅ Exercice 3.2 - Authentification Frontend
 ✅ Frontend React avec Tailwind CSS  
 ✅ Routes protégées  
 ✅ CRUD complet  
